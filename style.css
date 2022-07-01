@@ -147,7 +147,7 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
     grid-template-columns:2fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-column-gap: 6px;
-    grid-row-gap: 9p;
+    grid-row-gap: 10px;
     padding-left: 90px;
     padding-right: 90px;
 }
@@ -310,7 +310,11 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
 
 .mainAgenda__cartelera .carteleraItem .btn{
     width: 80px;
-}    
+}  
+
+.carteleraItem:hover{
+    transform: scale(1.5,1.5);
+}
 
 /*APLICO MEDIAQUERIES EN AGENDA PARA VISTA MOBILE*/
 @media(max-width:768px){
