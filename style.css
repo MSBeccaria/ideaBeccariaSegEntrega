@@ -259,6 +259,12 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
         margin-bottom: 10px;
     }
 
+    .mainMusica__video1,
+    .mainMusica__video2{
+        width: 768px;
+    }
+
+
 
     #footer{
         display: flex;
@@ -313,7 +319,7 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
 }  
 
 .carteleraItem:hover{
-    transform: scale(1.5,1.5);
+    transform: scale(1.5);
 }
 
 /*APLICO MEDIAQUERIES EN AGENDA PARA VISTA MOBILE*/
@@ -325,7 +331,7 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
                               "main"
                               "footer";
         grid-template-rows: 200px 1300px 50px;
-        gap: 5px;  
+        row-gap: 5px;  
         align-items: center; 
     }
     
@@ -343,6 +349,11 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
 
     .carteleraItem{
         width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .carteleraItem:hover{
+        transform:none;
     }
 
     #footer{
@@ -400,7 +411,7 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
         grid-template-areas: "header"
                               "main"
                               "footer";
-        grid-template-rows: 200px 500px 50px;
+        grid-template-rows: 200px 800px 50px;
         gap: 5px;  
         align-items: center; 
     }
@@ -413,7 +424,7 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
     }
 
     .mainContact__form{
-        width: 80%;
+        width: 100%;
     }
     
 }    
