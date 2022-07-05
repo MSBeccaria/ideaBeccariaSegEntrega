@@ -262,6 +262,7 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
     .mainMusica__video1,
     .mainMusica__video2{
         width: 768px;
+        justify-content: center;
     }
 
 
