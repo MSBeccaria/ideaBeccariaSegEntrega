@@ -326,8 +326,8 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
     align-items: center; 
 }
 #mainAgenda{
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 #mainAgenda h1{
