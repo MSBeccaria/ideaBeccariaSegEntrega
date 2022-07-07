@@ -461,6 +461,11 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
 
     .mainContact__form{
         width: 70%
+        
+    }
+    
+    .mainContact__form textarea{
+        width: 100%;
     }
     
 }    
