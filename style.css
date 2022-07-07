@@ -420,8 +420,8 @@ azul #2C8AA0 - naranja #CE5C16 - natural #E6C693*/
     grid-template-rows: 400px;
     grid-column-gap: 5px;
     grid-row-gap: 5px;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 40px;
+    padding-right: 40px;
     gap:60px;
     margin-bottom: 20px;
 }
